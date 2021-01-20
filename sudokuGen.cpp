@@ -397,7 +397,7 @@ void Sudoku::printSVG(string path="")
     }
   }
 
-    outFile << "<text x=\"50\" y=\"500\" style=\"font-weight:bold\" font-size=\"15px\">Difficulty Level (0 being easiest): "                  <<this->difficultyLevel<<"</text>\n";
+    outFile << "<text x=\"50\" y=\"500\" style=\"font-weight:bold\" font-size=\"15px\">Difficulty Level (0 being easiest): "<<this->difficultyLevel<<"</text>\n";
     outFile << "</svg>";
 
 }
